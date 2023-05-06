@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    height: 1024px;
+    background: url(./img/game.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+}
+
+.top__title {
+    width: 788.78px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+    padding-top: 217px;
+}
+
+.top__subtitle {
+    width: 481px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-top: 32px;
+    padding-bottom: 44px;
+}
+
+.subtitle__white {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.btn {
+    width: 234px;
+    height: 49px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #9C0332;
+    border-radius: 30px;
+    outline: none;
+}
+
+.game__blok {
+    background: #000915;
+    height: 556px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.game__one {
+    background: url(./img/game-blok-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 379px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    padding: 32px;
+}
+
+
+.game__link {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.game__two {
+    background: url(./img/game-blok-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 379px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    padding: 32px;
+}
+
+.game__three {
+    background: url(./img/game-blok-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 379px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    padding: 32px;
+}
+
