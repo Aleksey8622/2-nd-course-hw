@@ -65,6 +65,11 @@ a {
     outline: none;
 }
 
+.btn:hover {
+    background: black;
+    color: white;
+}
+
 .game__blok {
     background: #000915;
     height: 556px;
