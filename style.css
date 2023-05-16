@@ -1,122 +1,132 @@
 * {
-    padding: 0;
-    margin: 0;
-  }
-  
-  body {
-    font-family: "Montserrat", sans-serif;
-  }
-  
-  .center {
-    padding-left: calc(50% - 600px);
-    padding-right: calc(50% - 600px);
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  .top {
-    height: 1024px;
-    background: url(./img/game.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-  
-  .top__title {
-    width: 788.78px;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 78px;
-    color: #FFFFFF;
-    padding-top: 217px;
-  }
-  
-  .top__subtitle {
-    width: 481px;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 32px;
-    color: #FFFFFF;
-    padding-top: 32px;
-    padding-bottom: 44px;
-  }
-  
-  .subtitle__white {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 32px;
-  }
-  
-  .btn {
-    width: 234px;
-    height: 49px;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    color: #000000;
-    background: #9C0332;
-    border-radius: 30px;
-    outline: none;
-  }
-  
-  .btn:hover {
-    background: black;
-    color: white;
-  }
-  
-  .game {
-    background: #000915;
-    height: 556px;
-    display: flex;
-    align-items: center;
-    gap: 32px;
-  }
-  .game__one {
-    position: relative;
-    width: 379px;
-    height: 300px;
-    border-radius: 20px;
-    display: flex;
-    align-items: flex-end;
-  }
-  .game__two {
-    position: relative;
-    width: 379px;
-    height: 300px;
-    border-radius: 20px;
-    display: flex;
-    align-items: flex-end;
-  }
-  .game__three {
-    position: relative;
-    width: 379px;
-    height: 300px;
-    border-radius: 20px;
-    display: flex;
-    align-items: flex-end;
-  }
-  .game__box {
-    position: absolute;
-    bottom: 32px;
-    left: 32px;
-  }
-  .game__link {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    color: #FFFFFF;
-  }
-  .game__link:hover {
-    text-decoration: underline;
-  }
-  .game__img {
-    border-radius: 19px;
-  }
-  .game__img:hover {
-    border: 1px solid white;
-  }/*# sourceMappingURL=style.css.map */
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+a {
+  text-decoration: none;
+}
+
+.top {
+  height: 1024px;
+  background: url(./img/game.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.top__title {
+  width: 788.78px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #FFFFFF;
+  padding-top: 217px;
+}
+
+.top__subtitle {
+  width: 481px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  padding-top: 32px;
+  padding-bottom: 44px;
+}
+
+.subtitle__white {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.btn {
+  width: 234px;
+  height: 49px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  background: #9C0332;
+  border-radius: 30px;
+  outline: none;
+}
+
+.btn:hover {
+  background: black;
+  color: white;
+}
+
+.game {
+  background: #000915;
+  height: 556px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.game__one {
+  position: relative;
+  width: 379px;
+  height: 300px;
+  border-radius: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.game__two {
+  position: relative;
+  width: 379px;
+  height: 300px;
+  border-radius: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.game__three {
+  position: relative;
+  width: 379px;
+  height: 300px;
+  border-radius: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.game__box {
+  position: absolute;
+  bottom: 32px;
+  left: 32px;
+}
+
+.game__link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.game__link:hover {
+  text-decoration: underline;
+}
+
+.game__img {
+  border-radius: 19px;
+}
+
+.game__img:hover {
+  border: 1px solid white;
+}
+
+/*# sourceMappingURL=style.css.map */
