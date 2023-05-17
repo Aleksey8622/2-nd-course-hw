@@ -77,3 +77,37 @@
 //         console.log('Введено не верное значение');
 //         break;
 // }
+
+// Дополнительная практика
+
+// Задание 7
+
+// let namber = Number(prompt('Пожалуйста, введите любое число'));
+// if (namber % 2 == 0) {
+//     alert('Число четное')
+// } else {
+//     alert('Число нечетное')
+// }
+
+// Задание 8
+// let clientOS = Number(prompt('Выберите версию приложение (0 — iOS, 1 — Android)'));
+// if (clientOS === 0) {
+//     alert('Установите версию приложения для iOS по ссылке')
+// } else if (clientOS === 1) {
+//     alert('Установите версию приложения для Android по ссылке');
+// }
+
+
+// Задание 9
+// let clientOS = Number(prompt('Выберите версию приложение (0 — iOS, 1 — Android)'));
+// let clientDeviceYear = Number(prompt('Введите год прозводства вашего устройства'));
+// if (clientOS == 0 && clientDeviceYear >= 2015) {
+//     alert('Установите версию приложения для iOS по ссылке');
+// } else if (clientOS == 0 && clientDeviceYear <= 2015) {
+//     alert('Установите облегченную версию приложения для iOS по ссылке');
+// }
+// if (clientOS == 1 && clientDeviceYear >= 2015) {
+//     alert('Установите версию приложения для Android по ссылке');
+// } else if (clientOS == 1 && clientDeviceYear <= 2015) {
+//     alert('Установите облегченную версию приложения для Android по ссылке');
+// } 
