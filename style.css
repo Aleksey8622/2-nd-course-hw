@@ -130,6 +130,10 @@ a {
     align-items: center;
     text-align: center;
     flex-direction: column;
+    background-image: url(./img/Fon-iphone.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   .top__title {
     width: 343px;
