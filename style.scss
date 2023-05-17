@@ -43,13 +43,8 @@ a {
     padding-bottom: 44px;
 }
 
-.subtitle__white {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 32px;
-}
 
-.btn {
+.top__btn {
     width: 234px;
     height: 49px;
     font-family: "Montserrat";
@@ -63,44 +58,42 @@ a {
     outline: none;
 }
 
-.btn:hover {
+.top__btn:hover {
     background: black;
     color: white;
 }
 
 .game {
-    background: #000915;
-    height: 556px;
+    background-image: url(./img/game-blok.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     gap: 32px;
+    flex-wrap: wrap;
+    padding-top: 128px;
+    padding-bottom: 128px;
 }
 
 .game__one {
+    width: 376px;
     position: relative;
-    width: 379px;
-    height: 300px;
     border-radius: 20px;
-    display: flex;
-    align-items: flex-end;
 }
 
 .game__two {
+    width: 376px;
     position: relative;
-    width: 379px;
-    height: 300px;
     border-radius: 20px;
-    display: flex;
-    align-items: flex-end;
+
 }
 
 .game__three {
+    width: 376px;
     position: relative;
-    width: 379px;
-    height: 300px;
     border-radius: 20px;
-    display: flex;
-    align-items: flex-end;
+
 }
 
 .game__box {
@@ -122,11 +115,14 @@ a {
 }
 
 .game__img {
+    width: 100%;
     border-radius: 19px;
 }
 
 .game__img:hover {
     border: 1px solid white;
 }
+
+@import 'mobile';
 
 /*# sourceMappingURL=style.css.map */
