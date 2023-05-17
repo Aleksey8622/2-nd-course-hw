@@ -23,7 +23,6 @@ a {
   background-position: center;
   background-size: cover;
 }
-
 .top__title {
   width: 788.78px;
   font-weight: 700;
@@ -32,7 +31,6 @@ a {
   color: #FFFFFF;
   padding-top: 217px;
 }
-
 .top__subtitle {
   width: 481px;
   font-weight: 300;
@@ -42,7 +40,6 @@ a {
   padding-top: 32px;
   padding-bottom: 44px;
 }
-
 .top__btn {
   width: 234px;
   height: 49px;
@@ -56,7 +53,6 @@ a {
   border-radius: 30px;
   outline: none;
 }
-
 .top__btn:hover {
   background: black;
   color: white;
@@ -74,31 +70,26 @@ a {
   padding-top: 128px;
   padding-bottom: 128px;
 }
-
 .game__one {
   width: 376px;
   position: relative;
   border-radius: 20px;
 }
-
 .game__two {
   width: 376px;
   position: relative;
   border-radius: 20px;
 }
-
 .game__three {
   width: 376px;
   position: relative;
   border-radius: 20px;
 }
-
 .game__box {
   position: absolute;
   bottom: 32px;
   left: 32px;
 }
-
 .game__link {
   font-style: normal;
   font-weight: 600;
@@ -106,16 +97,13 @@ a {
   line-height: 32px;
   color: #FFFFFF;
 }
-
 .game__link:hover {
   text-decoration: underline;
 }
-
 .game__img {
   width: 100%;
   border-radius: 19px;
 }
-
 .game__img:hover {
   border: 1px solid white;
 }

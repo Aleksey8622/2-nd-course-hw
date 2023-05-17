@@ -22,46 +22,48 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    &__title {
+        width: 788.78px;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 78px;
+        color: #FFFFFF;
+        padding-top: 217px;
+    }
+
+    &__subtitle {
+        width: 481px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+        padding-top: 32px;
+        padding-bottom: 44px;
+    }
+
+
+    &__btn {
+        width: 234px;
+        height: 49px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+        background: #9C0332;
+        border-radius: 30px;
+        outline: none;
+    }
+
+    &__btn:hover {
+        background: black;
+        color: white;
+    }
+
 }
 
-.top__title {
-    width: 788.78px;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 78px;
-    color: #FFFFFF;
-    padding-top: 217px;
-}
-
-.top__subtitle {
-    width: 481px;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 32px;
-    color: #FFFFFF;
-    padding-top: 32px;
-    padding-bottom: 44px;
-}
-
-
-.top__btn {
-    width: 234px;
-    height: 49px;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    color: #000000;
-    background: #9C0332;
-    border-radius: 30px;
-    outline: none;
-}
-
-.top__btn:hover {
-    background: black;
-    color: white;
-}
 
 .game {
     background-image: url(./img/game-blok.jpg);
@@ -74,54 +76,56 @@ a {
     flex-wrap: wrap;
     padding-top: 128px;
     padding-bottom: 128px;
+
+    &__one {
+        width: 376px;
+        position: relative;
+        border-radius: 20px;
+    }
+
+    &__two {
+        width: 376px;
+        position: relative;
+        border-radius: 20px;
+
+    }
+
+    &__three {
+        width: 376px;
+        position: relative;
+        border-radius: 20px;
+
+    }
+
+    &__box {
+        position: absolute;
+        bottom: 32px;
+        left: 32px;
+    }
+
+    &__link {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+
+    &__link:hover {
+        text-decoration: underline;
+    }
+
+    &__img {
+        width: 100%;
+        border-radius: 19px;
+    }
+
+    &__img:hover {
+        border: 1px solid white;
+    }
 }
 
-.game__one {
-    width: 376px;
-    position: relative;
-    border-radius: 20px;
-}
 
-.game__two {
-    width: 376px;
-    position: relative;
-    border-radius: 20px;
-
-}
-
-.game__three {
-    width: 376px;
-    position: relative;
-    border-radius: 20px;
-
-}
-
-.game__box {
-    position: absolute;
-    bottom: 32px;
-    left: 32px;
-}
-
-.game__link {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    color: #FFFFFF;
-}
-
-.game__link:hover {
-    text-decoration: underline;
-}
-
-.game__img {
-    width: 100%;
-    border-radius: 19px;
-}
-
-.game__img:hover {
-    border: 1px solid white;
-}
 
 @import 'mobile';
 
