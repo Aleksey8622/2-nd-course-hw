@@ -25,6 +25,14 @@
 // let b = '3';
 // alert(Number(a) + Number(b));
 
+// Второе решение задания 4
+// Задание 4
+// let a = '2';
+// let b = '3';
+// let c = Number(a);
+// let d = Number(b);
+// alert(c + d);
+
 
 // Задание 5
 // let monthNumber = Number(prompt('Введите номер месяца!'));
