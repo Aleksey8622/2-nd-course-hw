@@ -24,7 +24,7 @@ a {
   background-size: cover;
 }
 .top__title {
-  width: 788.78px;
+  max-width: 788px;
   font-weight: 700;
   font-size: 64px;
   line-height: 78px;
@@ -40,86 +40,112 @@ a {
   padding-top: 32px;
   padding-bottom: 44px;
 }
-
-.subtitle__white {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 32px;
+.top__btn {
+  width: 234px;
+  height: 49px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  background: #9C0332;
+  border-radius: 30px;
+  outline: none;
+}
+.top__btn:hover {
+  background: black;
+  color: white;
 }
 
-.btn {
-    width: 234px;
-    height: 49px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
-    background: #9C0332;
-    border-radius: 30px;
-    outline: none;
+.game {
+  background-image: url(./img/game-blok.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+.game__number {
+  width: 375px;
+  position: relative;
+  border-radius: 20px;
+}
+.game__box {
+  position: absolute;
+  bottom: 32px;
+  left: 32px;
+}
+.game__link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.game__link:hover {
+  text-decoration: underline;
+}
+.game__img {
+  width: 100%;
+  border-radius: 19px;
+}
+.game__img:hover {
+  border: 1px solid white;
 }
 
-.btn:hover {
-    background: black;
-    color: white;
-
-}
-
-.game__blok {
-    background: #000915;
-    height: 556px;
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
     display: flex;
     align-items: center;
-    gap: 32px;
-
-}
-
-.game__one {
-    background: url(./img/game-blok-1.jpg);
-    background-position: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: url(./img/Fon-iphone.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-    width: 379px;
-    height: 300px;
-    border-radius: 20px;
-    display: flex;
-    align-items: flex-end;
-    padding: 32px;
-}
-
-
-.game__link {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
+  }
+  .top__title {
+    width: 343px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
     color: #FFFFFF;
-}
-
-.game__two {
-    background: url(./img/game-blok-2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 379px;
-    height: 300px;
-    border-radius: 20px;
     display: flex;
-    align-items: flex-end;
-    padding: 32px;
-}
-
-.game__three {
-    background: url(./img/game-blok-3.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 379px;
-    height: 300px;
-    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  .top__subtitle {
+    width: 343px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
     display: flex;
-    align-items: flex-end;
-    padding: 32px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .top__send {
+    display: flex;
+    justify-content: center;
+  }
+  .top__btn {
+    text-align: center;
+  }
+  .game {
+    justify-content: center;
+  }
+  .game__img {
+    width: 343px;
+  }
 }
-
+/*# sourceMappingURL=style.css.map */
