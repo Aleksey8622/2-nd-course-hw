@@ -23,16 +23,14 @@ a {
   background-position: center;
   background-size: cover;
 }
-
 .top__title {
-  width: 788.78px;
+  max-width: 788px;
   font-weight: 700;
   font-size: 64px;
   line-height: 78px;
   color: #FFFFFF;
   padding-top: 217px;
 }
-
 .top__subtitle {
   width: 481px;
   font-weight: 300;
@@ -42,14 +40,7 @@ a {
   padding-top: 32px;
   padding-bottom: 44px;
 }
-
-.subtitle__white {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 32px;
-}
-
-.btn {
+.top__btn {
   width: 234px;
   height: 49px;
   font-family: "Montserrat";
@@ -57,47 +48,32 @@ a {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  color: #000000;
+  color: #FFFFFF;
   background: #9C0332;
   border-radius: 30px;
   outline: none;
 }
-
-.btn:hover {
+.top__btn:hover {
   background: black;
   color: white;
 }
 
 .game {
-  background: #000915;
-  height: 556px;
+  background-image: url(./img/game-blok.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   align-items: center;
   gap: 32px;
+  flex-wrap: wrap;
+  padding-top: 128px;
+  padding-bottom: 128px;
 }
-.game__one {
+.game__number {
+  width: 375px;
   position: relative;
-  width: 379px;
-  height: 300px;
   border-radius: 20px;
-  display: flex;
-  align-items: flex-end;
-}
-.game__two {
-  position: relative;
-  width: 379px;
-  height: 300px;
-  border-radius: 20px;
-  display: flex;
-  align-items: flex-end;
-}
-.game__three {
-  position: relative;
-  width: 379px;
-  height: 300px;
-  border-radius: 20px;
-  display: flex;
-  align-items: flex-end;
 }
 .game__box {
   position: absolute;
@@ -115,8 +91,61 @@ a {
   text-decoration: underline;
 }
 .game__img {
+  width: 100%;
   border-radius: 19px;
 }
 .game__img:hover {
   border: 1px solid white;
-}/*# sourceMappingURL=style.css.map */
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: url(./img/Fon-iphone.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .top__title {
+    width: 343px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .top__subtitle {
+    width: 343px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .top__send {
+    display: flex;
+    justify-content: center;
+  }
+  .top__btn {
+    text-align: center;
+  }
+  .game {
+    justify-content: center;
+  }
+  .game__img {
+    width: 343px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
