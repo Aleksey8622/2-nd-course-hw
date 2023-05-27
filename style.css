@@ -63,6 +63,9 @@ a {
   background: black;
   color: white;
 }
+.top__btn.pointer {
+  cursor: pointer;
+}
 
 .game {
   background-image: url(./img/game-blok.jpg);
@@ -102,6 +105,9 @@ a {
 }
 .game__img:hover {
   border: 1px solid white;
+}
+.game__img.pointer {
+  cursor: pointer;
 }
 
 .seasons {
