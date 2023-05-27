@@ -72,9 +72,9 @@ a {
             color: white;
         }
 
-        &.pointer {
-            cursor: pointer;
-        }
+        // &.pointer {
+        //     cursor: pointer;
+        // }
     }
 
 
@@ -112,6 +112,7 @@ a {
         font-size: 24px;
         line-height: 32px;
         color: #FFFFFF;
+
     }
 
     &__link:hover {
@@ -126,10 +127,10 @@ a {
             border: 1px solid white;
         }
 
-        &.pointer {
-            cursor: pointer;
+        // &.pointer {
+        //     cursor: pointer;
 
-        }
+        // }
     }
 
 

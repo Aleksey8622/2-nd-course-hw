@@ -123,25 +123,25 @@
 
 // Вариант 1
 
-// const seasons = (num) => {
+const seasons = (num) => {
 
 
-//     do {
-//         num = prompt("Введите месяц");
-//         if (num == 12 || num <= 2) {
-//             console.log('Время года Зима!');
-//         } else if (num <= 3 || num <= 5) {
-//             console.log('Время года Весна!');
-//         } else if (num <= 6 || num <= 8) {
-//             console.log('Время года Лето!');
-//         } else if (num <= 9 || num <= 11) {
-//             console.log('Время года Осень!');
-//         } else {
-//             console.log('Этого времени года еще не придумали! Конец игре!');
-//         }
-//     } while (num <= 12);
+    do {
+        num = prompt("Введите месяц");
+        if (num == 12 || num <= 2) {
+            console.log('Время года Зима!');
+        } else if (num <= 3 || num <= 5) {
+            console.log('Время года Весна!');
+        } else if (num <= 6 || num <= 8) {
+            console.log('Время года Лето!');
+        } else if (num <= 9 || num <= 11) {
+            console.log('Время года Осень!');
+        } else {
+            console.log('Этого времени года еще не придумали! Конец игре!');
+        }
+    } while (num <= 12);
 
-// }
+}
 
 // Вариант 2
 
