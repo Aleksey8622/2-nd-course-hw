@@ -22,6 +22,12 @@ a {
   background-position: center;
   background-size: cover;
 }
+.top__send {
+  padding-bottom: 493px;
+}
+.top__send_active {
+  padding: 0px;
+}
 .top__title {
   max-width: 788px;
   font-weight: 700;

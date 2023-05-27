@@ -17,11 +17,18 @@ a {
 }
 
 .top {
-    // height: 1024px;
     background: url(./img/game.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    &__send {
+        padding-bottom: 493px;
+
+        &_active {
+            padding: 0px;
+        }
+    }
 
     &__title {
         max-width: 788px;
@@ -34,6 +41,7 @@ a {
         &_active {
             padding: 0px;
         }
+
 
     }
 
