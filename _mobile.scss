@@ -14,6 +14,7 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        padding-bottom: 238px;
 
 
         &__title {
@@ -25,6 +26,11 @@
             display: flex;
             align-items: center;
             text-align: center;
+
+            &_active {
+                display: flex;
+                justify-content: center;
+            }
         }
 
         &__subtitle {
@@ -55,6 +61,16 @@
         &__img {
             width: 343px;
         }
+    }
+
+    .seasons {
+        padding-top: 51px;
+        padding-bottom: 85px;
+
+        &__img {
+            padding-top: 64px;
+        }
+
     }
 
 }
