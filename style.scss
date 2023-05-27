@@ -66,12 +66,18 @@ a {
         background: #9C0332;
         border-radius: 30px;
         outline: none;
+
+        &:hover {
+            background: black;
+            color: white;
+        }
+
+        &.pointer {
+            cursor: pointer;
+        }
     }
 
-    &__btn:hover {
-        background: black;
-        color: white;
-    }
+
 
 }
 
@@ -115,11 +121,18 @@ a {
     &__img {
         width: 100%;
         border-radius: 19px;
+
+        &:hover {
+            border: 1px solid white;
+        }
+
+        &.pointer {
+            cursor: pointer;
+
+        }
     }
 
-    &__img:hover {
-        border: 1px solid white;
-    }
+
 }
 
 .seasons {
