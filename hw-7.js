@@ -95,22 +95,22 @@
 
 // Задание 10
 
-function dateOutput(data) {
-    const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+// function dateOutput(data) {
+//     const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
 
-    const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+//     const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
 
-    let day = days[data.getDay()]
-    let month = months[data.getMonth()]
-    let year = data.getFullYear()
-    let dateStr = data.getDate()
+//     let day = days[data.getDay()]
+//     let month = months[data.getMonth()]
+//     let year = data.getFullYear()
+//     let dateStr = data.getDate()
 
-    let hour = data.getHours() < 10 ? '0' + data.getHours() : data.getHours();
-    let minut = data.getMinutes() < 0 ? '0' + data.getMinutes() : data.getMinutes();
-    let second = data.getSeconds() < 0 ? '0' + data.getSeconds() : data.getSeconds();
-    let time = `${hour}:${minut}:${second}`
+//     let hour = data.getHours() < 10 ? '0' + data.getHours() : data.getHours();
+//     let minut = data.getMinutes() < 0 ? '0' + data.getMinutes() : data.getMinutes();
+//     let second = data.getSeconds() < 0 ? '0' + data.getSeconds() : data.getSeconds();
+//     let time = `${hour}:${minut}:${second}`
 
-    console.log(`Время: ${time}`);
-    console.log(`Дата: ${dateStr} ${month} ${year} - сегодня ${day}!`);
-}
-dateOutput(new Date());
+//     console.log(`Время: ${time}`);
+//     console.log(`Дата: ${dateStr} ${month} ${year} - сегодня ${day}!`);
+// }
+// dateOutput(new Date());
