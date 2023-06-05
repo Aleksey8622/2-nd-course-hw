@@ -158,6 +158,20 @@ a {
     }
 }
 
+.remember {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #000915;
+    padding-top: 239px;
+    padding-bottom: 239px;
+
+    &__img {
+        width: 100%;
+    }
+}
+
 
 
 @import 'mobile';

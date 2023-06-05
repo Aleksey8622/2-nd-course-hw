@@ -66,11 +66,23 @@
     .seasons {
         padding-top: 51px;
         padding-bottom: 85px;
+        justify-content: center;
 
         &__img {
             padding-top: 64px;
         }
 
+    }
+
+    .remember {
+        padding-top: 51px;
+        padding-bottom: 90px;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+
+        &__img {
+            padding-top: 64px;
+        }
     }
 
 }
