@@ -123,6 +123,19 @@ a {
   width: 100%;
 }
 
+.remember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #000915;
+  padding-top: 239px;
+  padding-bottom: 239px;
+}
+.remember__img {
+  width: 100%;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -180,8 +193,18 @@ a {
   .seasons {
     padding-top: 51px;
     padding-bottom: 85px;
+    justify-content: center;
   }
   .seasons__img {
+    padding-top: 64px;
+  }
+  .remember {
+    padding-top: 51px;
+    padding-bottom: 90px;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+  }
+  .remember__img {
     padding-top: 64px;
   }
 }
